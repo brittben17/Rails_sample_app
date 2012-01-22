@@ -1,0 +1,11 @@
+<% provide(:title, 'Scratch') %>
+<h1>Scratch</h1>
+<p>
+  Random Stuff..
+ <ul> 
+ <% for file in @files %>
+  <li>file name is: <%= file %></li>
+<% end %>
+</ul>
+  <%= Time.now %>
+</p>
