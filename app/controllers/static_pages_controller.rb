@@ -7,4 +7,11 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def contact
+  end
+
+  def scratch
+  	@files = Dir.glob('*')
+  end
 end
